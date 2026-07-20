@@ -1,0 +1,38 @@
+digraph MindMap {
+	rankdir=TB
+	root [label="Decoding History: AI & Lost Ancient Mysteries"]
+	topic_0 [label=Introduction]
+	root -> topic_0
+	topic_0_0 [label="Captivating Image"]
+	topic_0 -> topic_0_0
+	topic_0_1 [label="Overview of the Topic"]
+	topic_0 -> topic_0_1
+	topic_1 [label="The Rise of AI in Archaeology"]
+	root -> topic_1
+	topic_1_0 [label="AI's Potential"]
+	topic_1 -> topic_1_0
+	topic_1_1 [label="Current Applications"]
+	topic_1 -> topic_1_1
+	topic_2 [label="Case Studies"]
+	root -> topic_2
+	topic_2_0 [label="Nazca Lines"]
+	topic_2 -> topic_2_0
+	topic_2_1 [label="Indus Valley Civilization"]
+	topic_2 -> topic_2_1
+	topic_2_2 [label="Roman Pompeii"]
+	topic_2 -> topic_2_2
+	topic_3 [label="Future Implications"]
+	root -> topic_3
+	topic_3_0 [label="Data Challenges"]
+	topic_3 -> topic_3_0
+	topic_3_1 [label="Training Datasets"]
+	topic_3 -> topic_3_1
+	topic_3_2 [label=Interpretation]
+	topic_3 -> topic_3_2
+	topic_4 [label=Conclusion]
+	root -> topic_4
+	topic_4_0 [label="Reimagining Discovery"]
+	topic_4 -> topic_4_0
+	topic_4_1 [label="AI as a Collaborator"]
+	topic_4 -> topic_4_1
+}

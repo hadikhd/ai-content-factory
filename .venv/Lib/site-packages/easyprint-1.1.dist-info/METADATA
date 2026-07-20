@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: easyprint
+Version: 1.1
+Summary: Make easy, long docstring prints with breaks between each line!
+Home-page: https://github.com/ThatOneCalculator/Python-Easy-Print
+Author: ThatOneCalculator (Kainoa Kanter)
+Author-email: kainoakanter@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+use this format:
+
+```
+from easyprint import pr
+st=""
+stuff
+here
+ok"""
+pr(st)
+```
+
+
+if you want a delay that's not 1 second, do:
+pr(st, 0.5)
+

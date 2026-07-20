@@ -1,0 +1,16 @@
+# Core
+gradio==6.10.0
+langgraph==1.1.3
+ollama==0.6.1
+
+# Storage
+SQLAlchemy==2.0.51
+redis==5.0.1
+
+# Web server (used by Gradio for static font mounting)
+fastapi==0.135.2
+uvicorn==0.42.0
+
+# Config
+python-dotenv==1.2.2
+pydantic==2.13.3

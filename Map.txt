@@ -1,0 +1,34 @@
+ai-content-factory/
+│
+├── app/
+│   ├── graph.py
+│   ├── state.py
+│   ├── router.py
+│   ├── __init__.py
+│
+├── agents/
+│   ├── title_agent.py
+│   ├── writer_agent.py
+│   ├── reviewer_agent.py
+│   ├── editor_agent.py
+│   ├── seo_agent.py
+│   ├── image_agent.py
+│   ├── citation_agent.py
+│   ├── translator_agent.py
+│   ├── __init__.py
+│
+├── tools/
+│   ├── ollama_client.py
+│   ├── prompts.py
+│   ├── db.py
+│   ├── memory.py
+│   ├── utils.py
+│   ├── __init__.py
+│
+├── ui/
+│   ├── gradio_app.py
+│   ├── streaming.py
+│   ├── __init__.py
+│
+├── main.py
+└── requirements.txt
